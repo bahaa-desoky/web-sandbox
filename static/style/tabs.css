@@ -1,0 +1,50 @@
+input[type="radio"] {
+    display: none;
+}
+.input-wrapper{
+    position: relative;
+    height: 5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    /* width: 50vw; */
+    background-color: rgb(80, 80, 80);
+}
+
+label {
+    position: relative;
+    background-color: rgb(66, 65, 65);
+    left: 2.3545706371191137vh;
+    margin-bottom: 0.9695290858725761vh;
+    padding: 1.2465373961218837vh 2.4930747922437675vh;
+    border-radius: 0.4155124653739612vh;
+    color: white;
+    font-family: "Noto Sans";
+    font-size: 2vh;
+}
+
+input[type="radio"]:hover+label {
+    background-color: rgb(53, 53, 53);
+}
+
+input[type="radio"]:checked+label {
+    background-color: rgb(41, 41, 41);
+}
+
+
+button {
+    position: relative;
+    background-color: rgb(224, 224, 146);
+    outline: none;
+    padding: 0.9695290858725761vh 1.9390581717451523vh;
+    margin-left: calc(10vh/3.7);
+    border:  none;
+    font-family: "Noto Sans";
+    font-size: 2vh;
+    color: rgb(41, 41, 41);
+}
+
+button:hover{
+    background-color: rgb(173, 173, 114);
+}
+
+

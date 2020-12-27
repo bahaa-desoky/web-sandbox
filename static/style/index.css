@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+
+.input-wrapper {
+  height: 5vh;
+}
+
+.output {
+  float: left;
+  width: 50vw;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+iframe {
+  pointer-events: auto;
+}
+
+.editor-section {
+  width: 50vw;
+  float: left;
+  overflow: hidden;
+}
+
+/* core seperator css courtesy of https://stackoverflow.com/questions/12194469/best-way-to-do-a-split-pane-in-html */
+.splitter {
+  height: 100vh;
+  display: flex;
+}
+#separator {
+  cursor: col-resize;
+  background: url(https://raw.githubusercontent.com/RickStrahl/jquery-resizable/master/assets/vsizegrip.png) center center no-repeat #7a7a7a;
+  width: 10px;
+  height: 100vh;
+  min-width: 10px;
+
+   /* Prevent the browser's built-in drag from interfering */
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+#first {
+  height: 100vh;
+  min-width: 23vw;
+}
+
+#second {
+  height: 100vh;
+  min-width: 10vw;
+}
+
+
