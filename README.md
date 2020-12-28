@@ -1,5 +1,5 @@
-# web-editor
-This is an editor that lets you create beautiful webpages using HTML, CSS, and Javascript right in your browser. It features a clean, material look, MathJax functionality, and resizable panes. Built with Flask.
+# [web-editor](http://webeditor.pythonanywhere.com/)
+This is an editor that lets you create beautiful webpages using HTML, CSS, and Javascript right in your browser. It features a clean, material look, MathJax functionality, and resizable panes. Built with Flask. See the live demo [here](http://webeditor.pythonanywhere.com/).
 
 ## MathJax functionality:
 MathJax is the easiest way to render beautiful math eqautions and symbols almost instantly. This editor lets you use normal MathJax commands and renders mathematics immediately.
