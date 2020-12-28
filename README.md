@@ -2,7 +2,7 @@
 This is an editor that lets you create beautiful webpages using HTML, CSS, and Javascript right in your browser. It features a clean, material look, MathJax functionality, and resizable panes. Built with Flask. See the live demo [here](http://webeditor.pythonanywhere.com/).
 
 ## MathJax functionality:
-MathJax is the easiest way to render beautiful math eqautions and symbols almost instantly. This editor lets you use normal MathJax commands and renders mathematics immediately.
+MathJax is the easiest way to render beautiful math eqautions and symbols almost instantly. This editor lets you use normal MathJax commands and renders mathematics immediately. Core MathJax implementation and javascript courtesy of https://github.com/mathjax/MathJax/issues/2079. 
 
 ![MathJax Demo](demo-gifs/mathjax_demo.gif)
 
@@ -26,7 +26,7 @@ Add functionality to your document with Javascript and make it pop. Ajax support
 * Error linting when using CSS properties that don't exist and when HTML tags are not closed properly
 * Search and find (Ctrl-F)
 * Autocompletion (Ctrl-Space)
-* Resizable panes
+* Resizable panes, core javascript credit to https://stackoverflow.com/questions/12194469/best-way-to-do-a-split-pane-in-html. 
 * Built-in MathJax support
 
 ### Upcoming Features:
