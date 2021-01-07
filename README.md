@@ -1,4 +1,4 @@
-# [web-editor](http://webeditor.pythonanywhere.com/)
+# [web-sandbox](http://webeditor.pythonanywhere.com/)
 This is an editor that lets you create beautiful webpages using HTML, CSS, and Javascript right in your browser. It features a clean, material look, MathJax functionality, and resizable panes. Built with Flask. See the live demo [here](http://webeditor.pythonanywhere.com/).
 
 ## MathJax functionality:
